@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int length, width;
+
+    cout << "Введите длину прямоугольника: ";
+    cin >> length;
+
+    cout << "Введите ширину прямоугольника: ";
+    cin >> width;
+
+
+    int area = length * width;
+
+    cout << "Площадь прямоугольника: " << area << endl;
+
+    return 0;
+}
