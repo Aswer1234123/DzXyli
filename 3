@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int integerNumber; 
+    cout << "Введите целое число: ";
+    cin >> integerNumber; 
+
+    // Преобразование в число с плавающей точкой
+    double floatingPointNumber = static_cast<double>(integerNumber);
+
+    // Вывод результатов
+    cout << "Целое число: " << integerNumber << endl;
+    cout << "Число с плавающей точкой: " << floatingPointNumber << endl;
+
+    return 0;
+}
